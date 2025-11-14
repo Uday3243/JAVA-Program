@@ -1,0 +1,14 @@
+//6. Check if a number is even or odd
+import java.util.Scanner; // Import Scanner class
+public class EvenOdd1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);  // Create Scanner object
+        System.out.print("Enter a number: ");  
+        int num = sc.nextInt();  // Read user input as integer
+        if (num % 2 == 0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+        sc.close(); // Close Scanner (good practice)
+    }
+}
